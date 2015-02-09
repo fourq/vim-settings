@@ -16,11 +16,12 @@ See [Bundles](https://github.com/brentlintner/vim-settings/tree/master/.vim/bund
 ## Installation
 
 ```bash
- cd ~/
- git clone git@github.com:brentlintner/vim-settings.git
- ln -s vim-settings/.vimrc
- ln -s vim-settings/.vim
- cd vim-settings
+ # clone the repo into a local directory of your choice (e.g. ~/Projects on my system)
+ cd [your_projects_folder]
+ git clone git://github.com/fourq/vim-settings.git
+ ln -s [your_projects_folder]/vim-settings/.vimrc
+ ln -s [your_projects_folder]/vim-settings/.vim
+ cd [your_projects_folder]/vim-settings
  ./configure
 ```
 

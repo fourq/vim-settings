@@ -16,13 +16,23 @@ See [Bundles](https://github.com/brentlintner/vim-settings/tree/master/.vim/bund
 ## Installation
 
 ```bash
- # clone the repo into a local directory of your choice (e.g. ~/Projects on my system)
- cd [your_projects_folder]
+ # clone the repo into a local directory of your choice (~ used in this example)
+ cd ~
  git clone git://github.com/fourq/vim-settings.git
- ln -s [your_projects_folder]/vim-settings/.vimrc
- ln -s [your_projects_folder]/vim-settings/.vim
- cd [your_projects_folder]/vim-settings
+ ln -s vim-settings/.vimrc
+ ln -s vim-settings/.vim
+ cd vim-settings
  ./configure
+```
+
+## Submodules
+
+This setup uses several git repositories as submodules.  The configure script sets up the submodules for you initially but you might need/want to pull the latest versions of each submodule at some point.  To pull them all at once use the command below.
+
+```bash
+ # cd to install directory (~/vim-settings for this example)
+ cd ~/vim-settings
+ git submodule foreach git pull
 ```
 
 ## Common Commands

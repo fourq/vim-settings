@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+
+# init the submodules
 git submodule update --init
 
 # For JSHint/CoffeeScript Plugins

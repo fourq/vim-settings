@@ -36,7 +36,7 @@
 	url = https://github.com/mileszs/ack.vim.git
 [submodule ".vim/bundle/nerdtree"]
 	path = .vim/bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree.git.git
+	url = https://github.com/scrooloose/nerdtree.git
 [submodule ".vim/bundle/vim-colors-xoria256"]
 	path = .vim/bundle/vim-colors-xoria256
 	url = https://github.com/vim-scripts/xoria256.vim.git
@@ -45,13 +45,13 @@
 	url = https://github.com/mattn/emmet-vim.git
 [submodule ".vim/bundle/tlib_vim"]
 	path = .vim/bundle/tlib_vim
-	url = https://github.com/tomtom/tlib_vim.git.git
+	url = https://github.com/tomtom/tlib_vim.git
 [submodule ".vim/bundle/mw-utils"]
 	path = .vim/bundle/mw-utils
-	url = https://github.com/MarcWeber/vim-addon-mw-utils.git.git
+	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
 [submodule ".vim/bundle/vim-snipmate"]
 	path = .vim/bundle/vim-snipmate
-	url = https://github.com/garbas/vim-snipmate.git.git
+	url = https://github.com/garbas/vim-snipmate.git
 [submodule ".vim/bundle/snipmate-nodejs"]
 	path = .vim/bundle/snipmate-nodejs
 	url = https://github.com/jamescarr/snipmate-nodejs.git
@@ -102,7 +102,7 @@
 	url = https://github.com/cakebaker/scss-syntax.vim.git
 [submodule ".vim/bundle/vim-markdown"]
 	path = .vim/bundle/vim-markdown
-	url = https://github.com/plasticboy/vim-markdown.git.git
+	url = https://github.com/plasticboy/vim-markdown.git
 [submodule ".vim/bundle/vim-closetag"]
 	path = .vim/bundle/vim-closetag
 	url = https://github.com/docunext/closetag.vim.git

@@ -3,3 +3,6 @@ git submodule update --init
 
 # For JSHint/CoffeeScript Plugins
 npm install -g jshint coffee-script coffeelint
+
+# Install patched powerline fonts
+./.vim/bundle/powerline-fonts/install.sh

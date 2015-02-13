@@ -5,6 +5,16 @@ set nocompatible
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
 
+set guioptions-=r
+set guioptions-=L
+set antialias
+
+" Airline
+" cd bundle/powerline-fonts
+" ./install.sh (installs "Sauce Code Powerline Light")
+set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
+set guifont=Sauce\ Code\ Powerline\ Light:h18
+
 " disable vim-markdown folder
 let g:vim_markdown_folding_disabled=1
 
@@ -40,8 +50,9 @@ nnoremap <silent> <C-n> :CtrlPBuffer<CR>
 
 " color and syntax settings
 set background=dark
-set t_Co=256
-colors twilighted
+colorscheme base16-tomorrow
+" set t_Co=256
+" colors twilighted
 syntax on
 
 set backspace=indent,eol,start " backspacing support
@@ -89,7 +100,7 @@ map <C-l> <C-W>l
 "  NERD Tree
 let NERDTreeShowHidden=1
 " nnoremap <silent> <C-e> :NERDTreeToggle<CR>
-nnoremap <silent> nn :NERDTreeToggle<CR>
+nnoremap <silent> mm :NERDTreeToggle<CR>
 
 " Map jj to replace the escape key.
 :imap jj <Esc>

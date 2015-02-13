@@ -5,8 +5,8 @@ set nocompatible
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
 
-set guioptions-=r
-set guioptions-=L
+set guioptions-=r " macvim: remove right scrollbar
+set guioptions-=L " macvim: remove left scrollbar from nerdtree
 set antialias
 
 " Airline

@@ -5,6 +5,7 @@ set nocompatible
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
 
+set encoding=utf-8 " Necessary to show Unicode glyphs
 set guioptions-=r " macvim: remove right scrollbar
 set guioptions-=L " macvim: remove left scrollbar from nerdtree
 set antialias
@@ -13,7 +14,7 @@ set antialias
 " cd bundle/powerline-fonts
 " ./install.sh (installs "Sauce Code Powerline Light")
 set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
-set guifont=Sauce\ Code\ Powerline\ Light:h18
+set guifont=Sauce\ Code\ Powerline\ Light:h16
 
 " disable vim-markdown folder
 let g:vim_markdown_folding_disabled=1

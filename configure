@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # init the submodules
-git submodule update --init
+git submodule update
 git submodule foreach git pull
 
 # For JSHint/CoffeeScript Plugins

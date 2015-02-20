@@ -9,7 +9,7 @@ npm install -g jshint coffee-script coffeelint
 
 # Install patched powerline fonts
 value=$( grep -ic "" ~/.vim/bundle/powerline-fonts/install.sh )
-if [ $value -eq 25 ]
+if [[ $value -eq 25 ]]
 then
   ./.vim/bundle/powerline-fonts/install.sh
 fi

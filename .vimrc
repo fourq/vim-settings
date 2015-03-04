@@ -28,6 +28,16 @@ let g:spotify_country_code = 'US'
 " remove trailing spaces
 command TRAIL %s/\s\+$//
 
+" syntastic settings
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
 " html tidy - Meteor
 let g:syntastic_html_tidy_ignore_errors = [
     \ '<form> lacks "action" attribute',
@@ -64,7 +74,7 @@ set hlsearch " Highlight search resultsh
 set incsearch " be like search in modern browsers
 set ruler " Always set the mouse cursor position
 set nowrap " Disable wrapping
-set hidden " Allow switching between buffers without saving .
+" set hidden " Allow switching between buffers without saving .
 set number " Always show line numbers.
 set title " Set xterm title.
 

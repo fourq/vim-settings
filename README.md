@@ -57,7 +57,7 @@ Runs :CtrlPMixed.
 
 Runs :CtrlPBuffer.
 
-`ctrl-e+f`
+`ctrl-mm`
 
 Runs :NerdTreeToggle.
 

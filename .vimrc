@@ -29,11 +29,11 @@ let g:spotify_country_code = 'US'
 command TRAIL %s/\s\+$//
 
 " syntastic settings
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
+" set statusline+=%#warningmsg#
+" set statusline+=%{SyntasticStatuslineFlag()}
+" set statusline+=%*
 
-let g:syntastic_javascript_checkers = ['jsxhint']
+" let g:syntastic_javascript_checkers = ['jsxhint']
 
 " html tidy - Meteor
 let g:syntastic_html_tidy_ignore_errors = [

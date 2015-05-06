@@ -16,6 +16,9 @@ set antialias
 set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 set guifont=Sauce\ Code\ Powerline\ Light:h16
 
+" Gundo
+nnoremap <F5> :GundoToggle<CR>
+
 " disable vim-markdown folder
 let g:vim_markdown_folding_disabled=1
 

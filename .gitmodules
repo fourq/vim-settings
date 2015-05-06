@@ -139,3 +139,6 @@
 [submodule ".vim/bundle/gundo"]
 	path = .vim/bundle/gundo
 	url = http://github.com/sjl/gundo.vim.git
+[submodule ".vim/bundle/win-resizer"]
+	path = .vim/bundle/win-resizer
+	url = git@github.com:jimsei/winresizer.git

@@ -18,6 +18,7 @@ set guifont=Sauce\ Code\ Powerline\ Light:h16
 
 " neocomplete
 let g:neocomplete#enable_at_startup = 1
+:inoremap <expr> <Tab> pumvisible() ? "\<C-N>" : "\<Tab>"
 
 " Gundo
 nnoremap <F5> :GundoToggle<CR>

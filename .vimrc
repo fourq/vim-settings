@@ -16,6 +16,9 @@ set antialias
 set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 set guifont=Sauce\ Code\ Powerline\ Light:h16
 
+" neocomplete
+let g:neocomplete#enable_at_startup = 1
+
 " Gundo
 nnoremap <F5> :GundoToggle<CR>
 

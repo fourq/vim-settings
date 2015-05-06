@@ -142,3 +142,6 @@
 [submodule ".vim/bundle/win-resizer"]
 	path = .vim/bundle/win-resizer
 	url = git@github.com:jimsei/winresizer.git
+[submodule ".vim/bundle/neocomplete"]
+	path = .vim/bundle/neocomplete
+	url = git@github.com:Shougo/neocomplete.vim.git

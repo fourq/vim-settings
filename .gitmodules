@@ -145,3 +145,12 @@
 [submodule ".vim/bundle/neocomplete"]
 	path = .vim/bundle/neocomplete
 	url = git@github.com:Shougo/neocomplete.vim.git
+[submodule ".vim/bundle/paredit"]
+	path = .vim/bundle/paredit
+	url = git@github.com:vim-scripts/paredit.vim.git
+[submodule ".vim/tslime"]
+	path = .vim/tslime
+	url = git@github.com:kikijump/tslime.vim.git
+[submodule ".vim/bundle/tslime"]
+	path = .vim/bundle/tslime
+	url = git@github.com:kikijump/tslime.vim.git

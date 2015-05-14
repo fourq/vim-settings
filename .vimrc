@@ -35,21 +35,7 @@ let g:spotify_country_code = 'US'
 " remove trailing spaces
 command TRAIL %s/\s\+$//
 
-" syntastic settings
-" set statusline+=%#warningmsg#
-" set statusline+=%{SyntasticStatuslineFlag()}
-" set statusline+=%*
-
 let g:syntastic_javascript_checkers = ['eslint']
-" let g:syntastic_javascript_jsxhint_exec = 'jsx-jshint-wrapper'
-
-" html tidy - Meteor
-let g:syntastic_html_tidy_ignore_errors = [
-    \ '<form> lacks "action" attribute',
-    \ '<template> is not recognized!',
-    \ 'discarding unexpected <template>',
-    \ 'discarding unexpected </template>'
-  \ ]
 
 " gist-vim
 let g:gist_clip_command = 'pbcopy' " pbcopy for OSX Only
@@ -122,8 +108,8 @@ nnoremap <silent> mm :NERDTreeToggle<CR>
 :imap jj <Esc>
 
 " Spellcheck en_CA
-map <leader>s :setlocal spell spelllang=en_us<CR>
-map <leader>S :setlocal nospell<CR>
+map <leader>a :setlocal spell spelllang=en_us<CR>
+map <leader>A :setlocal nospell<CR>
 
 " Load in a custom config in CWD?
 if filereadable(".vim.custom")
@@ -163,7 +149,7 @@ endfunction
 
 " Tab switching
 if has("gui_macvim")
-  " Press Ctrl-Tab to switch between open tabs (like browser tabs) to 
+  " Press Ctrl-Tab to switch between open tabs (like browser tabs) to
   " the right side. Ctrl-Shift-Tab goes the other way.
   noremap <C-Tab> :tabnext<CR>
   noremap <C-S-Tab> :tabprev<CR>

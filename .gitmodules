@@ -145,3 +145,6 @@
 [submodule ".vim/bundle/rainbow"]
 	path = .vim/bundle/rainbow
 	url = git@github.com:luochen1990/rainbow.git
+[submodule ".vim/bundle/vim-fireplace"]
+	path = .vim/bundle/vim-fireplace
+	url = git@github.com:tpope/vim-fireplace.git

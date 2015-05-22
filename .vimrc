@@ -20,6 +20,9 @@ set guifont=Sauce\ Code\ Powerline\ Light:h16
 let g:neocomplete#enable_at_startup = 1
 :inoremap <expr> <Tab> pumvisible() ? "\<C-N>" : "\<Tab>"
 
+" Rainbow parentheses
+let g:rainbow_active = 1
+
 " Gundo
 nnoremap <F5> :GundoToggle<CR>
 

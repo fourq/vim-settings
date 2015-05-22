@@ -154,3 +154,15 @@
 [submodule ".vim/bundle/tslime"]
 	path = .vim/bundle/tslime
 	url = git@github.com:kikijump/tslime.vim.git
+[submodule ".vim/bundle/vim-clojure-highlight"]
+	path = .vim/bundle/vim-clojure-highlight
+	url = git@github.com:guns/vim-clojure-highlight.git
+[submodule ".vim/bundle/vim-clojure-static"]
+	path = .vim/bundle/vim-clojure-static
+	url = git@github.com:guns/vim-clojure-static.git
+[submodule ".vim/bundle/vim-fireplace"]
+	path = .vim/bundle/vim-fireplace
+	url = git://github.com/tpope/vim-fireplace.git
+[submodule ".vim/bundle/rainbow"]
+	path = .vim/bundle/rainbow
+	url = git@github.com:luochen1990/rainbow.git

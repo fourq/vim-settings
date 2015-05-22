@@ -76,15 +76,9 @@
 [submodule ".vim/bundle/ctrlp.vim"]
 	path = .vim/bundle/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim.git
-# [submodule ".vim/bundle/vim2hs"]
-# 	path = .vim/bundle/vim2hs
-# 	url = https://github.com/dag/vim2hs.git
 [submodule ".vim/bundle/vim-golang"]
 	path = .vim/bundle/vim-golang
 	url = https://github.com/jnwhiteh/vim-golang.git
-# [submodule ".vim/bundle/vim-scala"]
-# 	path = .vim/bundle/vim-scala
-# 	url = https://github.com/derekwyatt/vim-scala.git
 [submodule ".vim/bundle/vim-rdoc"]
 	path = .vim/bundle/vim-rdoc
 	url = https://github.com/depuracao/vim-rdoc.git
@@ -148,12 +142,6 @@
 [submodule ".vim/bundle/paredit"]
 	path = .vim/bundle/paredit
 	url = git@github.com:vim-scripts/paredit.vim.git
-[submodule ".vim/tslime"]
-	path = .vim/tslime
-	url = git@github.com:kikijump/tslime.vim.git
-[submodule ".vim/bundle/tslime"]
-	path = .vim/bundle/tslime
-	url = git@github.com:kikijump/tslime.vim.git
 [submodule ".vim/bundle/vim-clojure-highlight"]
 	path = .vim/bundle/vim-clojure-highlight
 	url = git@github.com:guns/vim-clojure-highlight.git
@@ -166,3 +154,12 @@
 [submodule ".vim/bundle/rainbow"]
 	path = .vim/bundle/rainbow
 	url = git@github.com:luochen1990/rainbow.git
+[submodule ".vim/bundle/vim-leiningen"]
+	path = .vim/bundle/vim-leiningen
+	url = git://github.com/tpope/vim-leiningen.git
+[submodule ".vim/bundle/vim-projectionist"]
+	path = .vim/bundle/vim-projectionist
+	url = git://github.com/tpope/vim-projectionist.git
+[submodule ".vim/bundle/vim-dispatch"]
+	path = .vim/bundle/vim-dispatch
+	url = git://github.com/tpope/vim-dispatch.git

@@ -1,17 +1,26 @@
 " keep it awesome- custom file warrants this
 set nocompatible
 
-set encoding=utf-8 " Necessary to show Unicode glyphs
-set antialias
 
 " pathogen
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
+call pathogen#helptags()
+
+set laststatus=2
+
+let base16colorspace=256
 
 " bundle/powerline-fonts
 " ./install.sh (installs "Sauce Code Powerline Light")
 set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 set guifont=Sauce\ Code\ Powerline\ Light:h16
+let g:Powerline_symbols = 'fancy'
+set t_Co=256
+set encoding=utf-8 " Necessary to show Unicode glyphs
+set fillchars+=stl:\ ,stlnc:\
+set term=xterm-256color
+set termencoding=utf-8
 
 " disable vim-markdown folder
 let g:vim_markdown_folding_disabled=1
@@ -42,9 +51,9 @@ nnoremap <silent> <C-n> :CtrlPBuffer<CR>
 " color and syntax settings
 set background=dark
 colorscheme base16-tomorrow
-" set background=dark
-" set t_Co=256
-" colors twilighted
+"set background=dark
+"set t_Co=256
+"colors twilighted
 syntax on
 
 set backspace=indent,eol,start " backspacing support

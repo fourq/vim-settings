@@ -12,6 +12,34 @@ let g:vim_markdown_folding_disabled=1
 let g:gist_detect_filetype = 1
 let g:gist_post_private = 1
 
+" remove trailing spaces
+command TRAIL %s/\s\+$//
+
+" rainbow parens
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
+
+let g:rbpt_colorpairs = [
+    \ ['brown',       'RoyalBlue3'],
+    \ ['Darkblue',    'SeaGreen3'],
+    \ ['darkgray',    'DarkOrchid3'],
+    \ ['darkgreen',   'firebrick3'],
+    \ ['darkcyan',    'RoyalBlue3'],
+    \ ['darkred',     'SeaGreen3'],
+    \ ['darkmagenta', 'DarkOrchid3'],
+    \ ['brown',       'firebrick3'],
+    \ ['gray',        'RoyalBlue3'],
+    \ ['black',       'SeaGreen3'],
+    \ ['darkmagenta', 'DarkOrchid3'],
+    \ ['Darkblue',    'firebrick3'],
+    \ ['darkgreen',   'RoyalBlue3'],
+    \ ['darkcyan',    'SeaGreen3'],
+    \ ['darkred',     'DarkOrchid3'],
+    \ ['red',         'firebrick3'],
+    \ ]
+
 " ctrl-p
 " TODO: clear cache on pull up? map new key?
 let g:ctrlp_cmd = 'CtrlP'
@@ -66,7 +94,7 @@ set number
 set title
 
 " Custom file extensions..
-au! BufRead,BufNewFile Jakefile     setfiletype javascript
+au! BufRead,BufNewFile .jslintrc    setfiletype javascript
 au! BufRead,BufNewFile *.mustache   setfiletype mustache
 au! BufRead,BufNewFile *.co         setfiletype coffee
 au! BufRead,BufNewFile *.less       setfiletype less

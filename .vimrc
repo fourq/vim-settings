@@ -4,6 +4,7 @@ set nocompatible
 " pathogen
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
+call pathogen#helptags()
 
 set encoding=utf-8 " Necessary to show Unicode glyphs
 set guioptions-=r " macvim: remove right scrollbar

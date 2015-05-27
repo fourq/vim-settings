@@ -115,3 +115,18 @@
 [submodule ".vim/bundle/pairedit"]
 	path = .vim/bundle/pairedit
 	url = git@github.com:vim-scripts/paredit.vim.git
+[submodule ".vim/bundle/rainbow"]
+	path = .vim/bundle/rainbow
+	url = git@github.com:luochen1990/rainbow.git
+[submodule ".vim/bundle/powerline-fonts"]
+	path = .vim/bundle/powerline-fonts
+	url = git@github.com:powerline/fonts.git
+[submodule ".vim/bundle/powerline"]
+	path = .vim/bundle/powerline
+	url = git@github.com:powerline/powerline.git
+[submodule ".vim/bundle/base16-vim"]
+	path = .vim/bundle/base16-vim
+	url = git@github.com:chriskempson/base16-vim.git
+[submodule ".vim/bundle/neocomplete"]
+	path = .vim/bundle/neocomplete
+	url = git@github.com:Shougo/neocomplete.vim.git

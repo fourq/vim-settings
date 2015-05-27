@@ -1,47 +1,38 @@
 " keep it awesome- custom file warrants this
 set nocompatible
 
+set encoding=utf-8 " Necessary to show Unicode glyphs
+set antialias
+
 " pathogen
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
+
+" bundle/powerline-fonts
+" ./install.sh (installs "Sauce Code Powerline Light")
+set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
+set guifont=Sauce\ Code\ Powerline\ Light:h16
 
 " disable vim-markdown folder
 let g:vim_markdown_folding_disabled=1
 
 " gist-vim
+let g:gist_clip_command = 'pbcopy' " pbcopy for OSX Only
 let g:gist_detect_filetype = 1
 let g:gist_post_private = 1
+
+" neocomplete
+let g:neocomplete#enable_at_startup = 1
+:inoremap <expr> <Tab> pumvisible() ? "\<C-N>" : "\<Tab>"
 
 " remove trailing spaces
 command TRAIL %s/\s\+$//
 
 " rainbow parens
-au VimEnter * RainbowParenthesesToggle
-au Syntax * RainbowParenthesesLoadRound
-au Syntax * RainbowParenthesesLoadSquare
-au Syntax * RainbowParenthesesLoadBraces
-
-let g:rbpt_colorpairs = [
-    \ ['brown',       'RoyalBlue3'],
-    \ ['Darkblue',    'SeaGreen3'],
-    \ ['darkgray',    'DarkOrchid3'],
-    \ ['darkgreen',   'firebrick3'],
-    \ ['darkcyan',    'RoyalBlue3'],
-    \ ['darkred',     'SeaGreen3'],
-    \ ['darkmagenta', 'DarkOrchid3'],
-    \ ['brown',       'firebrick3'],
-    \ ['gray',        'RoyalBlue3'],
-    \ ['black',       'SeaGreen3'],
-    \ ['darkmagenta', 'DarkOrchid3'],
-    \ ['Darkblue',    'firebrick3'],
-    \ ['darkgreen',   'RoyalBlue3'],
-    \ ['darkcyan',    'SeaGreen3'],
-    \ ['darkred',     'DarkOrchid3'],
-    \ ['red',         'firebrick3'],
-    \ ]
+let g:rainbow_active = 1
 
 " ctrl-p
-" TODO: clear cache on pull up? map new key?
+" " TODO: clear cache on pull up? map new key?
 let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_show_hidden = 1
 set wildignore+=*.test*,*.tscache*,*.git/*,*node_modules/*,*coverage/*,*bower_components/*,*.vim/bundle,*tmp/*,*.keep
@@ -50,8 +41,10 @@ nnoremap <silent> <C-n> :CtrlPBuffer<CR>
 
 " color and syntax settings
 set background=dark
-set t_Co=256
-colors twilighted
+colorscheme base16-tomorrow
+" set background=dark
+" set t_Co=256
+" colors twilighted
 syntax on
 
 set backspace=indent,eol,start " backspacing support
@@ -122,13 +115,13 @@ map <C-l> <C-W>l
 "  NERD Tree
 let NERDTreeShowHidden=1
 let NERDTreeIgnore = ['\.baseDir.ts$']
-nnoremap <silent> <C-e><C-f> :NERDTreeToggle<CR>
+nnoremap <silent> mm :NERDTreeToggle<CR>
 
 " Map jj to replace the escape key.
 :imap jj <Esc>
 
-" Spellcheck en_CA
-map <leader>s :setlocal spell spelllang=en_ca<CR>
+" Spellcheck en_US
+map <leader>s :setlocal spell spelllang=en_us<CR>
 map <leader>S :setlocal nospell<CR>
 
 " Load in a custom config in CWD?

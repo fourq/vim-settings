@@ -9,18 +9,18 @@ call pathogen#helptags()
 
 set laststatus=2
 
-let base16colorspace=256
 
 " bundle/powerline-fonts
 " ./install.sh (installs "Sauce Code Powerline Light")
 set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 set guifont=Sauce\ Code\ Powerline\ Light:h16
-let g:Powerline_symbols = 'fancy'
-set t_Co=256
+"let g:Powerline_symbols = 'fancy'
+"set t_Co=256
 set encoding=utf-8 " Necessary to show Unicode glyphs
 set fillchars+=stl:\ ,stlnc:\
-set term=xterm-256color
-set termencoding=utf-8
+"set term=xterm-256color
+"set termencoding=utf-8
+let base16colorspace=256
 
 " disable vim-markdown folder
 let g:vim_markdown_folding_disabled=1

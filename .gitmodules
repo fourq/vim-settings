@@ -136,3 +136,9 @@
 [submodule ".vim/bundle/vim-classpath"]
 	path = .vim/bundle/vim-classpath
 	url = git@github.com:tpope/vim-classpath.git
+[submodule ".vim/bundle/vim-leiningen"]
+	path = .vim/bundle/vim-leiningen
+	url = git@github.com:tpope/vim-leiningen.git
+[submodule ".vim/bundle/vim-eastwood"]
+	path = .vim/bundle/vim-eastwood
+	url = https://github.com/venantius/vim-eastwood.git

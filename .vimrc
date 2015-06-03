@@ -121,6 +121,10 @@ map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
 
+" resize windows
+nnoremap _ 2<C-W><lt>
+nnoremap + 3<C-W>>
+
 "  NERD Tree
 let NERDTreeShowHidden=1
 let NERDTreeIgnore = ['\.baseDir.ts$']

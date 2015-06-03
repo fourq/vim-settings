@@ -139,3 +139,9 @@
 [submodule ".vim/bundle/vim-leiningen"]
 	path = .vim/bundle/vim-leiningen
 	url = git@github.com:tpope/vim-leiningen.git
+[submodule ".vim/bundle/vim-jsx"]
+	path = .vim/bundle/vim-jsx
+	url = https://github.com/mxw/vim-jsx.git
+[submodule ".vim/bundle/you-complete-me"]
+	path = .vim/bundle/you-complete-me
+	url = https://github.com/Valloric/YouCompleteMe

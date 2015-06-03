@@ -145,3 +145,6 @@
 [submodule ".vim/bundle/you-complete-me"]
 	path = .vim/bundle/you-complete-me
 	url = https://github.com/Valloric/YouCompleteMe
+[submodule ".vim/bundle/tcomment"]
+	path = .vim/bundle/tcomment
+	url = https://github.com/tomtom/tcomment_vim

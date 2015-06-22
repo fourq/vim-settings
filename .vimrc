@@ -9,6 +9,7 @@ call pathogen#helptags()
 
 set laststatus=2
 
+nnoremap q ?\S?e+1<CR>v/\S/e-1<CR>d:noh<CR>
 
 " bundle/powerline-fonts
 " ./install.sh (installs "Sauce Code Powerline Light")

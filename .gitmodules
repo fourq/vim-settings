@@ -145,3 +145,6 @@
 [submodule ".vim/bundle/rainbow"]
 	path = .vim/bundle/rainbow
 	url = git@github.com:luochen1990/rainbow.git
+[submodule ".vim/bundle/vim-spotifysearch"]
+	path = .vim/bundle/vim-spotifysearch
+	url = git@github.com:takac/vim-spotifysearch.git

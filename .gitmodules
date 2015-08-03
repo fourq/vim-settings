@@ -154,9 +154,6 @@
 [submodule ".vim/bundle/vim-flow"]
 	path = .vim/bundle/vim-flow
 	url = git://github.com/facebook/vim-flow.git
-[submodule ".vim/bundle/dart-vim-plugin"]
-	path = .vim/bundle/dart-vim-plugin
-	url = https://github.com/dart-lang/dart-vim-plugin
 [submodule ".vim/bundle/seti.vim"]
 	path = .vim/bundle/seti.vim
 	url = https://github.com/trusktr/seti.vim

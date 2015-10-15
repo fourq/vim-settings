@@ -89,7 +89,6 @@ au! BufRead,BufNewFile *.less       setfiletype less
 set autoindent
 filetype plugin indent on
 autocmd FileType * set tabstop=2|set shiftwidth=2
-autocmd FileType hs set tabstop=2|set shiftwidth=2
 autocmd FileType text setlocal textwidth=78 " for git commits
 set expandtab
 
@@ -104,8 +103,6 @@ map <C-h> <C-W>h
 map <C-l> <C-W>l
 
 "  NERD Tree
-let NERDTreeShowHidden=1
-" nnoremap <silent> <C-e> :NERDTreeToggle<CR>
 nnoremap <silent> mm :NERDTreeToggle<CR>
 
 " Map jj to replace the escape key.

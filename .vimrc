@@ -17,6 +17,12 @@ set antialias
 set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 set guifont=Sauce\ Code\ Powerline\ Light:h16
 
+" jsdoc
+let g:jsdoc_allow_input_prompt = 1
+" let g:jsdoc_additional_descriptions = 1
+let g:jsdoc_access_descriptions = 1
+let g:jsdoc_underscore_private = 1
+
 " neocomplete
 let g:neocomplete#enable_at_startup = 1
 :inoremap <expr> <Tab> pumvisible() ? "\<C-N>" : "\<Tab>"
@@ -56,7 +62,8 @@ nnoremap <silent> <C-n> :CtrlPBuffer<CR>
 
 " color and syntax settings
 set background=dark
-colorscheme base16-tomorrow
+colorscheme base16-pop
+" colorscheme base16-tomorrow
 " set t_Co=256
 " colors twilighted
 syntax on

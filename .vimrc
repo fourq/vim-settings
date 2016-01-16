@@ -17,6 +17,21 @@ set antialias
 set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 set guifont=Sauce\ Code\ Powerline\ Light:h16
 
+" should markdown preview get shown automatically upon opening markdown buffer
+let g:livedown_autorun = 1
+
+" should the browser window pop-up upon previewing
+let g:livedown_open = 1
+
+" the port on which Livedown server will run
+let g:livedown_port = 1337
+
+" open file in browser
+nnoremap <F12>f :exe ':silent !open -a /Applications/Firefox.app %'<CR>
+nnoremap <F12>c :exe ':silent !open -a /Applications/Google\ Chrome.app %'<CR>
+nnoremap <F12>g :exe ':silent !open -a /Applications/Google\ Chrome.app %'<CR>
+nnoremap <F12>s :exe ':silent !open /Applications/Safari.app %'<CR>
+
 " jsdoc
 let g:jsdoc_allow_input_prompt = 1
 " let g:jsdoc_additional_descriptions = 1

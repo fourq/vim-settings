@@ -151,3 +151,12 @@
 [submodule ".vim/bundle/vim-jsdoc"]
 	path = .vim/bundle/vim-jsdoc
 	url = git@github.com:heavenshell/vim-jsdoc.git
+[submodule ".vim/bundle/vim-markdown-preview"]
+	path = .vim/bundle/vim-markdown-preview
+	url = git@github.com:JamshedVesuna/vim-markdown-preview.git
+[submodule ".vim/vim-instant-markdown"]
+	path = .vim/vim-instant-markdown
+	url = git@github.com:suan/vim-instant-markdown.git
+[submodule ".vim/bundle/vim-livedown"]
+	path = .vim/bundle/vim-livedown
+	url = git://github.com/shime/vim-livedown.git
